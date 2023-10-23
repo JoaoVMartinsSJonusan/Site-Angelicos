@@ -1,0 +1,186 @@
+    
+    @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100;200;300;400;500;600;700&display=swap');
+
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+        body{
+            background-image: url(fundo_header.png);
+            background-size:contain;
+            padding: 0px;
+            margin: 0px;
+            font-family: 'Anek Devanagari', sans-serif; 
+            line-height: 2em;
+            
+        }
+
+        #container{
+            background-color: rgb(255, 228, 199);
+            background-image: url(imagens/fundoCerto.jpeg);
+            background-repeat: no-repeat;
+            background-position:  50% 80%;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 100%;
+            padding-bottom: 10px;
+            
+        }
+
+        header{
+            background-image: linear-gradient(to top, rgb(0, 102, 0), rgb(0, 103, 0), rgb(255, 191, 122));
+            height: 130px;
+            padding-bottom: 30px;
+        }
+
+        #logo{
+            text-align: center;
+            
+            color: rgb(255, 210, 152);
+            padding-left: 30px;
+            padding-top: 20px;
+            line-height: 100px;
+            font-size: 60px;
+            font-family: 'Barlow Condensed', sans-serif;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.472);
+        }
+
+        #logo_img{
+            height: 60px;
+            padding-left: 20px;
+        }
+
+        header a{
+            text-decoration: none;
+            background-color: rgb(0, 102, 0);
+            padding: 15px;
+            color: rgb(255, 205, 140);
+        }
+
+        #link{
+            background-color: rgb(0, 102, 0);
+            padding: 3px;
+            text-align: center;
+            margin-top: -30px;
+            min-width: 260;
+            width: 99.5%;  
+            box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.278);
+        }
+
+        #link a{
+            font-size: 1em;
+            text-decoration: none;
+            margin: 0px 7px;
+            padding: 2px 8px;
+            color: rgb(255, 228, 199);
+            transition: 0.2s;
+            text-shadow: 0px 0px 3px black  ;
+        }
+
+        #link a:hover{
+            background-color: rgb(0, 76, 0);
+            border-radius: 5px;
+        }
+        
+        
+        main{
+            
+            padding-top: 20px;
+            max-width: 800px;
+            margin: auto;
+            padding-bottom: 10px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            background-color: rgb(255, 210, 152);
+            box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.542);
+        }
+
+        main h2{
+            padding: 10px 0;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.346);
+        }
+        
+
+        .texto_principal{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 30px;
+            padding-right: 10px;
+            font-size: 20px;
+            background-color: rgba(207, 172, 122, 0.833);
+            margin: 0px 20px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.372);
+        }
+        
+        
+        #link_contato{
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .link_principal{
+            background-color: rgb(0, 102, 0);
+            color: rgb(255, 228, 199);
+            padding: 0px 8px;
+            border-radius: 5px; 
+            text-align: center;
+            text-decoration: none;
+            min-width: 280px;
+            font-size: 20px;
+            box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.403);
+        }
+
+        .link_principal:hover{
+            background-color: rgb(0, 76, 0);
+            border-radius: 5px;
+        }
+        
+        #imagem_principal{
+            width: 100%;
+            min-width: 260px;
+            max-width: 400px;
+            display:flex;
+            padding: 10px;
+            margin-left: auto;
+            margin-right: auto 
+        }
+        .resto_imagens{
+            height: 400px;
+            display:flex;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 10px;
+            border-radius: 3px;
+            box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.461);
+            transition: 0.2s;
+        }
+
+        .resto_imagens:hover{
+            height: 410px;
+            margin-bottom: 0px;
+        }
+
+        #div_videos{
+            text-align: center;
+        }
+        .videos{
+            height: 300px;
+            margin-top: 10px;
+        }
+
+        h2{
+            text-align: center;
+            font-size: 40px;
+        }
+
+        footer{
+            color: black;
+            text-align: center;
+            font-weight: bold;
+            background-color: rgb(0, 102, 0);
+        }
